@@ -1,7 +1,29 @@
 aid: tibo-energy
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tibo-energy.png
 name: Tibo Energy
-description: Tibo Energy is a company surfaced as a portfolio company of speedinvest and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Tibo Energy is an Eindhoven-based energy software company building an AI-driven
+  Energy Management System (EMS) for commercial and industrial customers. Its SaaS
+  platform simulates, monitors, and autonomously controls on-site energy hubs and
+  smart grids, coordinating distributed assets such as heat pumps, EV charging
+  stations, and battery storage to cut energy costs and emissions and to unlock
+  additional capacity from existing infrastructure without waiting for grid
+  upgrades. Tibo connects hardware through standard protocols such as MODBUS and
+  OCPP via the Tibo Gateway and exchanges data with BMS, SCADA, and ERP systems
+  through open APIs. Since launching in late 2023 it has deployed its EMS across
+  more than 30 industrial sites and is backed by KOMPAS VC, Hitachi Ventures, SET
+  Ventures, WEPA Ventures, and Speedinvest.
 url: https://raw.githubusercontent.com/api-evangelist/tibo-energy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,40 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Energy
+- Energy Management
+- EMS
+- Smart Grid
+- Sustainability
+- IoT
+- Manufacturing
+- Battery Storage
+- EV Charging
+- Netherlands
+common:
+- type: DomainSecurity
+  url: security/tibo-energy-domain-security.yml
+- type: Website
+  url: https://tibo.energy/
+- type: Blog
+  url: https://tibo.energy/news/
+- type: HelpCenter
+  url: https://tibo.energy/faq/
+- type: Integrations
+  url: https://tibo.energy/integrations/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/tibo-energy/
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
